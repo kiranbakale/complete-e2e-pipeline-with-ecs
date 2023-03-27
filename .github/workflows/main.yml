@@ -11,7 +11,7 @@ env:
   ECS_SERVICE: first-ecs-service               
   ECS_CLUSTER: complete-e2e-cluster               
   ECS_TASK_DEFINITION: .github/workflows/task-definition.json
-  CONTAINER_NAME: demo-deploy          
+  CONTAINER_NAME: container1         
                                         
 
 permissions:
