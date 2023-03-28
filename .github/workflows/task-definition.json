@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:722581090783:task-definition/first-ecs-service:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:722581090783:task-definition/demodeploy:1",
     "containerDefinitions": [
         {
             "name": "container1",
@@ -21,14 +21,14 @@
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
-                    "awslogs-group": "/ecs/first-ecs-service",
+                    "awslogs-group": "/ecs/demodeploy",
                     "awslogs-region": "us-east-1",
                     "awslogs-stream-prefix": "ecs"
                 }
             }
         }
     ],
-    "family": "first-ecs-service",
+    "family": "demodeploy",
     "taskRoleArn": "arn:aws:iam::722581090783:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::722581090783:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
@@ -74,6 +74,6 @@
     ],
     "cpu": "256",
     "memory": "512",
-    "registeredAt": 1679912988.518,
+    "registeredAt": 1679998170.666,
     "registeredBy": "arn:aws:iam::722581090783:root"
 }
