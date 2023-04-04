@@ -8,7 +8,7 @@ on:
 env:
   AWS_REGION: us-east-1                
   ECR_REPOSITORY: complete_e2e_ecr          
-  ECS_SERVICE: first-ecs-service               
+  ECS_SERVICE: second-ecs-service               
   ECS_CLUSTER: complete-e2e-cluster               
   ECS_TASK_DEFINITION: .github/workflows/task-definition.json
   CONTAINER_NAME: container1         
